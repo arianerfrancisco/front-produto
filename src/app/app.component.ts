@@ -45,7 +45,7 @@ export class AppComponent {
       id: this.produtoForm.get('id')?.value,
       nome: this.produtoForm.get('nome')?.value,
       descricao: this.produtoForm.get('descricao')?.value,
-      preco: this.produtoForm.get('preco')?.value
+      valor: this.produtoForm.get('valor')?.value
     }
   }
 
@@ -61,6 +61,7 @@ export class AppComponent {
           },
           error: (error) => {
             console.log(error);
+            console.log('deu erro');
           },
           complete: () => console.log('produto salvo')
         }

@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  url: 'http://localhost:8080/api',
+  url: {Endpoint AWS para Elasticbeanstalk},
   // trocar para o endpoint do elasticbeanstalk
-  
+
 };
