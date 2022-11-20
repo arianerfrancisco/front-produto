@@ -4,8 +4,7 @@
 
 export const environment = {
   production: false,
-  url:  {Endpoint AWS para Elasticbeanstalk},
-  // trocar para o endpoint do elasticbeanstalk
+  url:  'http://localhost:8080/api/',
 };
 
 /*
