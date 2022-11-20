@@ -1,6 +1,6 @@
 env:
   variables:
-    APP_NAME: "demo_front_cloud"
+    APP_NAME: "front-produto"
 phases:
   install:
     runtime-versions:
